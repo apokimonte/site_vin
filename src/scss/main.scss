@@ -496,3 +496,81 @@ body {
   margin-bottom: 59px;
   border: none;
 }
+
+.nav-secondaire p {
+  margin-top: 104px;
+  margin-bottom: 52px;
+  color: var(--vin-black, #000);
+  display: flex;
+  width: 738px;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+
+.détails h1 {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+
+.détails p {
+  text-align: right;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.titrage {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.titrage p {
+  margin-bottom: 9px;
+}
+
+.détails-titrage {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.détails-titrage p {
+  margin-bottom: 9px;
+}
+
+.infos {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.savoir h1 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+¨.savoir p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.image-banner3-1 {
+  background-image: url(../img/banner3-1.jpg);
+  background-size: cover;
+}
+
+.image-banner3-1 .text {
+  color: var(--vin-white, #fff);
+  font-family: Baskervville;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
