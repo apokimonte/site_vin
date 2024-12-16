@@ -66,6 +66,30 @@ body {
   margin-top: 61px;
   margin-bottom: 172px;
 }
+.navigation-main {
+  display: flex;
+  width: 738px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+  text-align: center;
+  color: var(--vin-white, #fff);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-sec .txt:hover {
+  text-decoration-line: underline;
+}
+
+.navigation-main .txt:hover {
+  text-decoration-line: underline;
+}
+.navigation .txt:hover {
+  text-decoration-line: underline;
+}
 .navigation {
   display: flex;
   width: 738px;
@@ -96,6 +120,22 @@ body {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+}
+
+.langue-main {
+  display: flex;
+  width: 169px;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.langue-main p {
+  color: var(--vin-white, #fff);
+  font-size: 20px;
 }
 
 .langue p {
@@ -369,6 +409,7 @@ body {
 
 .image-footer {
   background-image: url(../img/image-footer.jpg);
+  background-size: cover;
   width: 100%;
 }
 
@@ -573,4 +614,37 @@ body {
   font-weight: 400;
   margin-top: 80px;
   margin-bottom: 40px;
+}
+
+button:hover {
+  border: 1px solid var(--vin-darkgrey, #1e1e1e);
+  background: rgba(159, 159, 159, 0.5);
+}
+
+.txt-sec:hover {
+  color: aqua;
+}
+
+.bouton-1:hover {
+  display: flex;
+  width: 282px;
+  height: 47px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--vin-white, #fff);
+  box-shadow: 2px 6px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.bouton-2:hover {
+  display: flex;
+  width: 282px;
+  height: 47px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--vin-white, #fff);
+  box-shadow: 2px 6px 3px 0px rgba(0, 0, 0, 0.4);
 }
