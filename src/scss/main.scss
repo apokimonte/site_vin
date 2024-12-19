@@ -635,6 +635,7 @@ button:hover {
   gap: 10px;
   background: var(--vin-white, #fff);
   box-shadow: 2px 6px 3px 0px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.7s;
 }
 
 .bouton-2:hover {
@@ -647,4 +648,5 @@ button:hover {
   gap: 10px;
   background: var(--vin-white, #fff);
   box-shadow: 2px 6px 3px 0px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.7s;
 }
